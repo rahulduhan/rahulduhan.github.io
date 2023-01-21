@@ -75,7 +75,7 @@
     display: block;
   }
 
-
+/* Making image in centre of page */
   .avatar {
     width:100%;
     height: 100vh;
@@ -84,6 +84,8 @@
     align-items: center;
     /* background-color: ; */
   }
+
+  /* Making image circular */
   .avatar img{
     height: 300px;
     width: 300px;
