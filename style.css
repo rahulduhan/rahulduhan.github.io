@@ -52,7 +52,7 @@
     display: none;
     position: fixed;
     background-color: #FFF6BD;
-    max-width: 115px;
+    widht: inherit;
     box-shadow: 0px 8px 16px 0px #FFFBC1;
     z-index: 1;
   }
