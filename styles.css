@@ -1,3 +1,9 @@
+ /* Remove page border and margin */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ 
  /* Navbar container */
  .navbar {
     overflow: hidden;
@@ -67,4 +73,20 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+
+  .avatar {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: ; */
+  }
+  .avatar img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: px;
   }
